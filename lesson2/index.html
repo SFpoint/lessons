@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <div class="header">
+            <div class="container">
+            <img src="E:\lessons\prof\lesson2\images\group_2_18.png" alt="img" class="logo">
+            <div>BRAN<span>D</span></div>
+            <nav class="navigation">
+                <input type="button" value="Browse" onclick="" class="Browse" id="Browse">
+                <script>
+                    var Browse = document.getElementById("Browse")
+                    var isMenuShow = false;
+                    Browse.addEventListener("click", function () {
+                        if (isMenuShow) {
+                            isMenuShow = false;
+                            document.getElementById("Drop_Down_box").style.display = "none";
+
+                        }
+                        else {
+                            isMenuShow = true;
+                            document.getElementById("Drop_Down_box").style.display = "block";
+
+                        }
+                    });
+                </script>
+                <div id="Drop_Down_box" class="Drop_Down_box">
+                    <ul><a href="#" class="Drop_Down_heading">women</a>
+                        <li>
+                            <a href="#" class="Drop_Down_list">Dresses</a>
+                        </li>
+                        <li>
+                            <a href="#" class="Drop_Down_list">Tops</a>
+                        </li>
+                        <li>
+                            <a href="#" class="Drop_Down_list">Sweaters/knits</a>
+                        </li>
+                        <li>
+                            <a href="#" class="Drop_Down_list">Jackets/coats</a>
+                        </li>
+                        <li>
+                            <a href="#" class="Drop_Down_list">Blazers</a>
+                        </li>
+                        <li>
+                            <a href="#" class="Drop_Down_list">Denim</a>
+                        </li>
+                        <li>
+                            <a href="#" class="Drop_Down_list">Leggins/Pants</a>
+                        </li>
+                        <li>
+                            <a href="#" class="Drop_Down_list">Skirts/Shorts</a>
+                        </li>
+                        <li>
+                            <a href="#" class="Drop_Down_list">Accessories</a>
+                        </li>
+                    </ul>
+                    <ul><a href="#" class="Drop_Down_heading">men</a>
+                        <li>
+                            <a href="#" class="Drop_Down_list">Tees/Tank tops</a>
+                        </li>
+                        <li>
+                            <a href="#" class="Drop_Down_list">Shirts/Polos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="Drop_Down_list">Sweaters</a>
+                        </li>
+                        <li>
+                            <a href="#" class="Drop_Down_list">Sweatshirst/Hoodies</a>
+                        </li>
+                        <li>
+                            <a href="#" class="Drop_Down_list">Blazers</a>
+                        </li>
+                        <li>
+                            <a href="#" class="Drop_Down_list">Jackets/Vests</a>
+                        </li>
+                </div>
+                </ul>
+            </nav>
+<div class="search_box">
+    <input type="search" class="search" placeholder="Search for item"><button class="search_icon"><img src="/lessons/prof/lesson2/images/__59.png" alt="img"></button>
+</input>
+</div>
+    <img src="/lessons/prof/lesson2/images/forma_1_1113.png" alt="img" class="cart">
+    <p class="Account">My Account</p>
+</div>
+<ul class="menu">
+    <a href="#" class="menu_link"><h3 class="mega_heading"> Home</h3></a>
+    <a href="#" class="menu_link"><h3 class="mega_heading"> men</h3></a>
+    
+<ul class="menu_link">
+<li>
+    <a href="#"><h3 class="mega_heading"> women</h3></a>
+    <ul class="mega_link_menu">
+        <div class="mega_item">
+        <a href="#" class="mega_link_heading">women</a>
+        <li>
+            <a href="#" class="mega_link">Dresses</a>
+        </li>
+        <li>
+            <a href="#" class="mega_link">Tops</a>
+        </li>
+        <li>
+            <a href="#" class="mega_link">Sweaters/knits</a>
+        </li>
+        <li>
+            <a href="#" class="mega_link">Jackets/coats</a>
+        </li>
+        <li>
+            <a href="#" class="mega_link">Blazers</a>
+        </li>
+        <li>
+            <a href="#" class="mega_link">Denim</a>
+        </li>
+        <li>
+            <a href="#" class="mega_link">Leggins/Pants</a>
+        </li>
+        <li>
+            <a href="#" class="mega_link">Skirts/Shorts</a>
+        </li>
+        <li>
+            <a href="#" class="mega_link">Accessories</a>
+        </li>
+    </div>
+    <div class="mega_item">
+        <a href="#" class="mega_link_heading">women</a>
+        <li>
+            <a href="#" class="mega_link">Dresses</a>
+        </li>
+        <li>
+            <a href="#" class="mega_link">Tops</a>
+        </li>
+        <li>
+            <a href="#" class="mega_link">Sweaters/knits</a>
+        </li> 
+        <li>
+            <a href="#" class="mega_link">Jackets/coats</a>
+        </li>
+        <div class="mega_item">
+            <a href="#" class="mega_link_heading">women</a>
+            <li>
+                <a href="#" class="mega_link">Dresses</a>
+            </li>
+            <li>
+                <a href="#" class="mega_link">Tops</a>
+            </li>
+            <li>
+                <a href="#" class="mega_link">Sweaters/knits</a>
+            </li> 
+        </div>
+    </div>
+
+    <div class="mega_item">
+        <a href="#" class="mega_link_heading">women</a>
+        <li>
+            <a href="#" class="mega_link">Dresses</a>
+        </li>
+        <li>
+            <a href="#" class="mega_link">Tops</a>
+        </li>
+        <li>
+            <a href="#" class="mega_link">Sweaters/knits</a>
+        </li>
+        <li>
+            <a href="#" class="mega_link">Jackets/coats</a>
+        </li>
+    </div>
+    </ul>
+    
+    
+</li>
+</ul>
+    <a href="#" class="menu_link"><h3 class="mega_heading"> kids</h3></a>
+    <a href="#" class="menu_link"><h3 class="mega_heading"> accessories</h3></a>
+    <a href="#" class="menu_link"><h3 class="mega_heading"> featured</h3></a>
+    <a href="#" class="menu_link"><h3 class="mega_heading"> hot deals</h3></a>
+</ul>
+</div>
+<div class="banner">
+<div class="banner_container">
+    <div class="letters"><div>THE BRAND</div>
+    <div>OF LUXERIOUS <span>FASHION</span></div>
+</div>
+</div>
+</div>
+<section class="Hot_Deal">
+<a href="#">
+    <div class="For_Men">
+<div class="tablet">
+    <div>HOT DEAL</div>
+    <span>FOR MEN</span>
+</div>
+    </div>
+</a>
+<a href="#">
+    <div class="For_Women">
+<div class="tablet">
+    <div>30% OFFER</div>
+    <span>WOMEN</span>
+</div>
+    </div>
+</a>
+<a href="#">
+    <div class="Accesories">
+<div class="tablet">
+    <div>LUXERIOUS & TRENDY</div>
+    <span>ACCESSORIES</span>
+</div>
+    </div>
+</a>
+<a href="#">
+    <div class="For_Kids">
+<div class="tablet">
+    <div>NEW ARRIVALS</div>
+    <span>FOR KIDS</span>
+</div>
+    </div>
+</a>
+</section>
+<section class="Featured_container">
+    <h2>featured Items</h2>
+<p>Shop for items based on what we featured in this week</p>
+<div class="Featured_box">
+<a href="#">
+    <div class="Featured_Item">
+        <div class="add_to_cart">
+            <img src="\lessons\prof\lesson2\images\forma_1_copy_1287.png" alt="img" >
+            <p>Add to Cart</p>
+        </div>
+        <img src="/lessons/prof/lesson2/images/rectangle_5_copy_1193.png" alt="img" >
+    <div>Mango People T-shirt</div>
+    <span>$52.00</span>
+    </div>
+</a>
+<a href="#">
+    <div class="Featured_Item">
+        <div class="add_to_cart">
+            <img src="\lessons\prof\lesson2\images\forma_1_copy_1287.png" alt="img" >
+            <p>Add to Cart</p>
+        </div>
+        <img src="\lessons\prof\lesson2\images\rectangle_5_copy_1201.png" alt="img">
+        <div>Mango People T-shirt</div>
+    <span>$52.00</span>
+    </div>
+</a>
+<a href="#">
+    <div class="Featured_Item">
+        <div class="add_to_cart">
+            <img src="\lessons\prof\lesson2\images\forma_1_copy_1287.png" alt="img" >
+            <p>Add to Cart</p>
+        </div>
+        <img src="\lessons\prof\lesson2\images\rectangle_5_copy_3_1209.png" alt="img">
+        <div>Mango People T-shirt</div>
+    <span>$52.00</span>
+    </div>
+</a>
+<a href="#">
+    <div class="Featured_Item">
+        <div class="add_to_cart">
+            <img src="\lessons\prof\lesson2\images\forma_1_copy_1287.png" alt="img" >
+            <p>Add to Cart</p>
+        </div>
+        <img src="\lessons\prof\lesson2\images\rectangle_5_copy_1240.png" alt="img">
+        <div>Mango People T-shirt</div>
+    <span>$52.00</span>
+    </div>
+</a>
+<a href="#">
+    <div class="Featured_Item">
+        <div class="add_to_cart">
+            <img src="\lessons\prof\lesson2\images\forma_1_copy_1287.png" alt="img" >
+            <p>Add to Cart</p>
+        </div>
+        <img src="\lessons\prof\lesson2\images\rectangle_5_copy_1248.png" alt="img">
+        <div>Mango People T-shirt</div>
+    <span>$52.00</span>
+    </div>
+</a>
+<a href="#">
+    <div class="Featured_Item">
+        <div class="add_to_cart">
+            <img src="\lessons\prof\lesson2\images\forma_1_copy_1287.png" alt="img" >
+            <p>Add to Cart</p>
+        </div>
+        <img src="\lessons\prof\lesson2\images\rectangle_5_copy_1256.png" alt="img">
+        <div>Mango People T-shirt</div>
+    <span>$52.00</span>
+    </div>
+</a>
+<a href="#">
+    <div class="Featured_Item">
+        <div class="add_to_cart">
+            <img src="\lessons\prof\lesson2\images\forma_1_copy_1287.png" alt="img" >
+            <p>Add to Cart</p>
+        </div>
+        <img src="\lessons\prof\lesson2\images\rectangle_5_copy_1264.png" alt="img">
+        <div>Mango People T-shirt</div>
+    <span>$52.00</span>
+    </div>
+</a>
+<a href="#">
+    <div class="Featured_Item">
+        <div class="add_to_cart">
+            <img src="\lessons\prof\lesson2\images\forma_1_copy_1287.png" alt="img" >
+            <p>Add to Cart</p>
+        </div>
+        <img src="\lessons\prof\lesson2\images\rectangle_5_copy_1272.png" alt="img">
+        <div>Mango People T-shirt</div>
+    <span>$52.00</span>
+    </div>
+</a>
+
+</div>
+<a href="#">
+    <div class="Browse_All_Product">
+        <p>Browse All Product</p>
+        <img src="\E:\lessons\prof\lesson2\images\___1187.png" alt="img">
+    </div>
+
+</a>
+</section>
+<div class="offer_container">
+    <section class="offers">
+        <div class="leftside">
+            <div class="offertablet">
+                <div>30%<span>OFFER</span></div>
+                <div>WOMEN</div>
+            </div>
+        </div>
+        <div class="rightside">
+    <div class="delievery"><img class="offerimg" src="E:\lessons\prof\lesson2\images\forma_1_1322.png" alt="img">
+        <h3 class="headline">Free Delivery</h3>
+        <p class="text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+    </div>
+    <div class="discounts"><img class="offerimg" src="E:\lessons\prof\lesson2\images\forma_1_1340.png" alt="img">
+    <h3 class="headline">Sales & discounts</h3>
+        <p class="text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+    </div>
+    <div class="quality">
+        <img class="offerimg" src="E:\lessons\prof\lesson2\images\forma_1_1341.png" alt="img">
+        <h3 class="headline">Quality assurance</h3>
+        <p class="text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+    </div>
+    </div>
+    </section>
+</div>
+<div class="subscribe">
+    <div class="lef">
+
+    </div>
+    <div class="right">
+
+    </div>
+</div>
+
+</body>
+
+</html>
