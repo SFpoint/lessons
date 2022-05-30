@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+        <img src="E:\lessons\prof\lesson2\images\group_2_18.png" alt="img" class="logo">
+        <div>BRAN<span>D</span></div>
+        <nav class="navigation">
+            <input type="button" value="Browse" onclick="" class="Browse" id="Browse">
+            <script>
+                var Browse = document.getElementById("Browse")
+                var isMenuShow = false;
+                Browse.addEventListener("click", function () {
+                    if (isMenuShow) {
+                        isMenuShow = false;
+                        document.getElementById("Drop_Down_box").style.display = "none";
+
+                    }
+                    else {
+                        isMenuShow = true;
+                        document.getElementById("Drop_Down_box").style.display = "block";
+
+                    }
+                });
+            </script>
+            <div id="Drop_Down_box" class="Drop_Down_box">
+                <ul><a href="#" class="Drop_Down_heading">women</a>
+                    <li>
+                        <a href="#" class="Drop_Down_list">Dresses</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Drop_Down_list">Tops</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Drop_Down_list">Sweaters/knits</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Drop_Down_list">Jackets/coats</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Drop_Down_list">Blazers</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Drop_Down_list">Denim</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Drop_Down_list">Leggins/Pants</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Drop_Down_list">Skirts/Shorts</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Drop_Down_list">Accessories</a>
+                    </li>
+                </ul>
+                <ul><a href="#" class="Drop_Down_heading">men</a>
+                    <li>
+                        <a href="#" class="Drop_Down_list">Tees/Tank tops</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Drop_Down_list">Shirts/Polos</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Drop_Down_list">Sweaters</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Drop_Down_list">Sweatshirst/Hoodies</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Drop_Down_list">Blazers</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Drop_Down_list">Jackets/Vests</a>
+                    </li>
+            </div>
+            </ul>
+        </nav>
+<div class="search_box">
+<input type="search" class="search" placeholder="Search for item"><button class="search_icon"><img src="/lessons/prof/lesson2/images/__59.png" alt="img"></button>
+</input>
+</div>
+<img src="/lessons/prof/lesson2/images/forma_1_1113.png" alt="img" class="cart">
+<p class="Account">My Account</p>
+</div>
+<ul class="menu">
+<a href="#" class="menu_link"><h3 class="mega_heading"> Home</h3></a>
+<a href="#" class="menu_link"><h3 class="mega_heading"> men</h3></a>
+
+<ul class="menu_link">
+<li>
+<a href="#"><h3 class="mega_heading"> women</h3></a>
+</li>
+</ul>
+<a href="#" class="menu_link"><h3 class="mega_heading"> kids</h3></a>
+<a href="#" class="menu_link"><h3 class="mega_heading"> accessories</h3></a>
+<a href="#" class="menu_link"><h3 class="mega_heading"> featured</h3></a>
+<a href="#" class="menu_link"><h3 class="mega_heading"> hot deals</h3></a>
+</ul>
+</div>
+<div class="banner_box">
+    <div class="catalog_banner">
+        <div class="catalog_left">NEW ARRIVALS</div>
+    <div class="catalog_right">
+        <a href="#">HOME/</a>
+        <a href="#">MEN/</a>
+        <a href="#">NEW ARRIVALS/</a></div>
+    </div>
+</div>
+<nav class="option_search">
+<div class="left_summary">
+<div class="options">
+    <details>
+        <summary>category</summary>
+<a href="#">Accessories</a>
+<a href="#">Bags</a>
+<a href="#">Denim</a>
+<a href="#">Hoodies & Sweatshirts</a>
+<a href="#">Jackets & Coats</a>
+<a href="#">Pants</a>
+<a href="#">Polos</a>
+<a href="#">Shirts</a>
+<a href="#">Shoes</a>
+<a href="#">Shorts</a>
+<a href="#">Sweaters & Knits</a>
+<a href="#">T-Shirts</a>
+<a href="#">Tanks</a>
+    </details>
+</div>
+<div class="options">
+    <details>
+        <summary>brand</summary>
+    </details>
+</div>
+<div class="options">
+    <details>
+        <summary>designer</summary>
+    </details>
+</div>
+</div>
+<div class="right_summary">
+<div class="trending">
+    <h2>Trending now</h2>
+    <button type="button" class="brand_choice">
+        Bohemian
+    </button>
+    <button type="button" class="brand_choice">
+        Floral
+    </button>
+    <button type="button" class="brand_choice">
+        Lace
+    </button>
+    <button type="button" class="brand_choice">
+        Floral
+    </button>
+    <button type="button" class="brand_choice">
+        Lace
+    </button>
+    <button type="button" class="brand_choice">
+        Bohemian
+    </button>
+</div>
+<div class="size">
+    <h2>size</h2>
+    <label class="size_choice">
+        <input type="checkbox" name="myCheckbox">
+        XXS
+    </label>
+    <label class="size_choice">
+        <input type="checkbox" name="myCheckbox">
+        XS
+    </label>
+    <label class="size_choice">
+        <input type="checkbox" name="myCheckbox">
+        S
+    </label>
+    <label class="size_choice">
+        <input type="checkbox" name="myCheckbox">
+        M
+    </label>
+    <label class="size_choice">
+        <input type="checkbox" name="myCheckbox">
+        L
+    </label>
+    <label class="size_choice">
+        <input type="checkbox" name="myCheckbox">
+        XL
+    </label>
+    <label class="size_choice">
+        <input type="checkbox" name="myCheckbox">
+        XXL
+    </label>
+</div>
+<div class="price">
+    <h2>price</h2>
+    <input type="range" name="myInput" step="1" value="1" max="100" required>
+
+</div>
+<div class="footer_search">
+    <div class="sort_by"></div>
+<div class="show"></div>
+</div>
+</div>
+</nav>
+<div class="subscribe">
+    <div class="left_container">
+<div class="left_content">
+    <img src="\lessons\prof\lesson2\images\ellipse_3_2206.png" alt="img">
+<p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
+    a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+</div>
+<div class="comment">
+    <h2>Bin Burhan</h2>
+<p>Dhaka, Bd</p>
+</div>
+    </div>
+    <div class="right_container">
+        <div>Subscribe </div>
+<span>FOR OUR NEWLETTER AND PROMOTION</span>
+<div class="send">
+    <input class="emailfield" type="email" value="Enter Your Email">
+    <input class="subscribebtn" type="button" value="Subscribe">
+</div>
+    </div>
+</div>
+<footer>
+<div class="box_box">
+        <main class="about">
+        <div class="block1">
+            <img src="E:\lessons\prof\lesson2\images\group_2_18.png" alt="img" class="logo">
+            <div>BRAN<span>D</span></div>
+            <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. <br> 
+                <br>
+                Efficiently plagiarize 24/365 action items and focused infomediaries.
+                Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+        </div>
+        <div class="block">
+            <h2>company</h2>
+            <a href="#">Home </a>
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">How It Works</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="block">
+            <h2>information</h2>
+            <a href="#">Tearms & Condition</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">How to Buy</a>
+            <a href="#">How to Sell</a>
+            <a href="#">Promotion</a>
+        </div>
+        <div class="block">
+            <h2>shop category</h2>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Child</a>
+            <a href="#">Apparel</a>
+            <a href="#">Brows All</a>
+        </div>
+    </main>
+</div>
+<div class="copyright_box">
+    <div class="copyright">
+        <div class="rights">
+            © 2017 Brand All Rights Reserved.
+        </div>
+        <div class="social">
+<a href="#"><span style="color: #b2b2b2; ; border: 10px solid white;margin: 8px;"><i class="fa-brands fa-facebook-f fa-fw" style="background:white"></i></span>
+</a>
+<a href="#">
+    <span style="color: #b2b2b2; border: 10px solid white;margin: 8px;"><i class="fa-brands fa-twitter fa-fw" style="background:white"></i></span>
+
+</a>
+<a href="#"><span style="color: #b2b2b2; border: 10px solid #b2b2b2 ;margin: 8px;"><i class="fa-solid fa-square fa-fw" style="background:#b2b2b2"></i></span>
+</a>
+<a href="#">
+    <span style="color: #b2b2b2; border: 10px solid white;margin: 8px;"><i class="fa-brands fa-pinterest-p fa-fw" style="background:white"></i></span>
+<a href="#">
+</a>
+    <span style="color: #b2b2b2; border: 10px solid white;margin: 8px;"><i class="fa-brands fa-google-plus-g" style="background:white"></i></span>
+</a>
+        </div>
+    </div>
+</div>
+</footer>
+</body>
+</html>
